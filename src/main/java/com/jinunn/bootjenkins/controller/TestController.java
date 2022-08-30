@@ -14,4 +14,9 @@ public class TestController {
     public String getStr(){
         return "hello git";
     }
+
+    @GetMapping("/bbb")
+    public String getbbb(){
+        return "add bbb";
+    }
 }
