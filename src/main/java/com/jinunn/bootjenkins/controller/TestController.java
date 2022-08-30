@@ -19,4 +19,9 @@ public class TestController {
     public String getbbb(){
         return "add bbb";
     }
+
+    @GetMapping("/ccc")
+    public String getCcc(){
+        return "ccc";
+    }
 }
